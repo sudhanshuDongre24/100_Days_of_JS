@@ -1,0 +1,7 @@
+.container {
+  margin: 15rem 0 0 0;
+}
+
+.container > * > * {
+  padding-bottom: 3rem;
+}
