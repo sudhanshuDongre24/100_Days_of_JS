@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/c56d76baa9.js"></script>
+    <script defer src="script.js"></script>
+    <title>Form Validation</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <h1>Create Account</h1>
+        </div>
+
+        <form action="" class="form" id="form">
+
+            <div class="control-form">
+                <label for="username">Username</label>
+                <input type="text" placeholder="Steve" id="username">
+                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="control-form">
+                <label for="email">Email</label>
+                <input type="email" placeholder="xyz@abc.com" id="email">
+                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="control-form">
+                <label for="password">Password</label>
+                <input type="password" placeholder="Password" id="password">
+                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="control-form">
+                <label for="password Check">Password Check</label>
+                <input type='password' placeholder="Password Check" id="passwordCheck">
+                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                <small>Error Message</small>
+            </div>
+
+            <button id="submit">Submit</button>
+            <button id="reset">Reset</button>
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>
