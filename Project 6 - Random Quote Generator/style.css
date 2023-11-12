@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap");
+
+* {
+  box-sizing: border-box;
+  /* margin: 0; */
+  /* padding: 0; */
+}
+
+.container {
+  font-family: "Source Serif Pro", Serif;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #e0ffff, #bce5e6);
+  margin-top: 10rem;
+  box-shadow: 20px 20px 60px #b2d8d9, -20px -20px 60px #f0ffff;
+  padding: 2rem 2rem 2rem 2rem;
+  max-height: 100vh;
+}
+
+#generate-btn {
+  margin: 2rem 0;
+}
+
+#quote-content {
+  margin-left: 1.5rem;
+}
+
+.author {
+  text-align: right;
+  margin: 1rem 5rem 0 0;
+}
+
+@media only screen and (max-with: 600px) {
+  :root {
+    margin-top: -2.5rem;
+    padding: 0 1.5rem 0 1.5rem;
+  }
+
+  #generate-btn {
+    width: 10rem;
+  }
+}
