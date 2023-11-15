@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <script src="https://use.fontawesome.com/c56d76baa9.js"></script>
+    <title>Newsletter PopUp</title>
+</head>
+
+<body>
+
+    <a class="button" onclick="toggleNewsletter();">Subscribe Us</a>
+
+    <div id="newsletter">
+
+        <div class=" icon">
+            <i class="fa fa-envelope-open-o fa-5x"></i>
+            <h2>Join our Exclusive Newsletter</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Nulla reiciendis minus impedit quasi eum!</p>
+
+            <div class="box">
+                <input type="email" placeholder="Enter Email">
+            </div>
+
+            <div class="box">
+                <button type="submit" value="Sign Up">Sign Up</button>
+            </div>
+        </div>
+
+        <a class="close" onclick="toggleNewsletter();"><i class="fa fa-times fa-2x" aria-hidden="true"></i></a>
+    </div>
+
+
+</body>
+
+</html>
