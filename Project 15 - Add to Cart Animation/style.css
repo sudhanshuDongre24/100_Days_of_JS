@@ -104,7 +104,7 @@ button {
 
 @keyframes XAxis {
   100% {
-    transform: translateX(calc(200vw - 105px));
+    transform: translateX(calc(120vw - 105px));
   }
 }
 
