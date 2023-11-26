@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap");
+
+p,
+.customer-name {
+  font-family: "Libre Franklin", sans-serif;
+  color: #333;
+}
+
+.container {
+  text-align: center;
+  padding-top: 7rem;
+}
+
+.header {
+  font-family: "Libre Franklin", sans-serif;
+  color: #25d336;
+}
+
+.card {
+  color: white;
+  border: 0.25rem solid white;
+  position: relative;
+}
+
+.icon {
+  color: #25d366;
+}
+
+.prev,
+.next {
+  font-size: 1.5rem;
+  padding: 0.1rem;
+  color: #25d366;
+  border: 0.1rem solid #25d366;
+  display: inline-block;
+  position: absolute;
+  padding: 0.4rem;
+  border-radius: 50%;
+  transition: all 1s ease-in-out;
+}
