@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(to right, #fffc00, #fc00ff);
+}
+
+.drops {
+  color: #00fffc;
+  top: -100px;
+  position: absolute;
+  animation: falling 3s linear;
+}
+
+@keyframes falling {
+  to {
+    transform: translateY(110vh);
+  }
+}
