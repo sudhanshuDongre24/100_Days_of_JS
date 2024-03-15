@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+header {
+  font-size: 24px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 120px;
+  z-index: 99;
+}
+
+header nav a {
+  color: black;
+  margin-left: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 15px;
+  border-radius: 50px;
+}
+
+header nav a:hover,
+header nav a:active {
+  color: white;
+  background: #07382f;
+}
+
+.Home {
+  min-height: 100vh;
+  background-color: #cdfff8;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.Home img {
+  position: absolute;
+  width: 100%;
+}
+
+.Home h1 {
+  font-size: 75px;
+  color: white;
+  position: absolute;
+  /* top: 70px; */
+  margin-bottom: 150px;
+}
+
+.Home .leaf1,
+.leaf2 {
+  top: 0;
+}
+
+.Home .plant {
+  bottom: 0;
+}
+.about {
+  min-height: 100vh;
+  background: #07382f;
+  color: white;
+  padding: 0 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 80px;
+}
+
+.about h1 {
+  font-size: 42px;
+}
+
+.about p {
+  font-size: 16px;
+}
